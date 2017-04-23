@@ -129,7 +129,7 @@ deploy:
   ##类型
   type: git
   ##地址
-  repo: git@github.com:wilemo/demo.wilemo.com.git
+  repo: git@github.com:wilemo/demo.git
   ##分支
   branch: gh-pages
   ##用户名
