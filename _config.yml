@@ -1,0 +1,138 @@
+#Hexo 配置
+##文档: https://hexo.io/docs/configuration.html
+##资源: https://github.com/hexojs/hexo/
+
+
+#站点配置
+##标题
+title: Wile Mo's Demo
+##副标题
+subtitle: You're unique, nothing can replace you.
+##描述
+description: Coder, bookworm, classical music.
+##作者
+author: Wile Mo
+##语言
+language: zh-Hans
+##时区
+timezone: Asia/Shanghai
+
+
+#网址配置
+##如果网站在子目录中，将url设置成'http://yoursite.com/child'，将root设置成'/child/'
+##网址
+url: http://demo.wilemo.com
+##根目录
+root: /
+##永久链接格式，文章存放的目录结构
+permalink: :year/:month/:day/:title/
+##永久链接中各部分的默认值
+permalink_defaults:
+
+
+#目录配置
+##资源文件夹，用来存放内容原件*.md
+source_dir: source
+##公共文件夹，用来存放生成的站点文件
+public_dir: public
+##标签文件夹，默认是tags，实际存放在source/tags中
+tag_dir: tags
+##归档文件夹，默认是archives，实际存放在source/archives中
+archive_dir: archives
+##分类文件夹，默认是categories，实际存放在source/categories中
+category_dir: categories
+##代码文件夹，默认是downloads/code
+code_dir: downloads/code
+#国际化文件夹，默认跟language相同
+i18n_dir: :lang
+#跳过渲染
+##全部文件test/*
+##全部文件及子目录test/**
+##指定文件类型test/*.md
+##多个条件[test1/*.html,test2/**]
+skip_render: README.md
+
+
+#写作配置
+##新文章文件名称
+new_post_name: :title.md
+##默认布局，默认是文章post，可以是草稿draft或页面page
+default_layout: post
+##是否将标题转换成首字母大写
+titlecase: false
+##是否在新标签页打开外部链接
+external_link: true
+##把文件名称转换为1小写或2大写，默认是0不转换
+filename_case: 0
+##是否渲染草稿
+render_drafts: false
+##是否启动资源asset文件夹
+post_asset_folder: false
+##把链接相对于根文件夹
+relative_link: false
+##显示未来的文章
+future: true
+##代码块设置
+highlight:
+  ##是否启用代码高亮
+  enable: true
+  ##是否显示行号
+  line_number: true
+  ##是否自动检测语言
+  auto_detect: false
+  ##缩进替换为指定字符
+  tab_replace:
+
+
+#分类&标签配置
+##默认分类，未分类的uncategorized
+default_category: uncategorized
+##分类别名
+category_map:
+##标签别名
+tag_map:
+
+
+#日期/时间格式配置
+##Hexo使用Moment.js来解析和显示时间
+##您可以自定义这个日期格式定义于http://momentjs.com/docs/#/displaying/format/
+##日期格式
+date_format: YYYY-MM-DD
+##时间格式
+time_format: HH:mm:ss
+
+
+#分页配置
+##每页显示的文章数量，设置为0关闭分页功能
+per_page: 10
+#分页目录
+pagination_dir: page
+
+
+#扩展配置
+##插件资源: https://hexo.io/plugins/
+##主题资源: https://hexo.io/themes/
+theme: next
+
+#Algolia搜索
+algolia:
+  applicationID: 2Q9QFXCG1G
+  apiKey: e32bee3c7f140c3c567d23a7beda758f
+  adminApiKey: 675e764752aeaba7320c0109d90cde60
+  indexName: wilemo
+  chunkSize: 5000
+
+
+#部署配置
+##文档: https://hexo.io/docs/deployment.html
+deploy:
+  ##类型
+  type: git
+  ##地址
+  repo: git@github.com:wilemo/demo.wilemo.com.git
+  ##分支
+  branch: gh-pages
+  ##用户名
+  name: Wile Mo
+  ##邮件地址
+  email: wilemo@163.com

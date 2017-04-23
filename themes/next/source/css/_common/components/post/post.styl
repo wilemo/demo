@@ -1,0 +1,70 @@
+.post-body {
+  font-family: $font-family-posts;
+  +mobile() {
+    word-break: break-word;
+  }
+}
+
+.post-body .fancybox img {
+  display: block !important;
+  margin: 0 auto;
+  cursor: pointer;
+  cursor: zoom-in;
+  cursor: -webkit-zoom-in;
+}
+
+.post-body .image-caption {
+  margin: 10px auto 15px;
+  text-align: center;
+  font-size: $font-size-base;
+  color: $grey-dark;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.post-body a {
+  color: #009a61;
+
+  &:hover {
+    color: #004e31;
+  }
+}
+
+.post-body a.headerlink {
+  border-bottom-width: 0;
+  margin-right: 5px;
+
+  //TODO: 段落增加#前缀
+  &::after{ content: "#" }
+
+  &:hover {
+    border-bottom-width: 1px;
+  }
+}
+
+
+
+.post-body .figure .caption {
+  @extend .post-body .image-caption;
+}
+
+.post-sticky-flag {
+  color: #fc6423;
+  display: inline-block;
+  font-size: 20px;
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+@import "post-expand";
+@import "post-collapse";
+@import "post-type";
+@import "post-title";
+@import "post-meta";
+@import "post-button";
+@import "post-tags";
+@import "post-nav";
+@import "post-eof";
+@import "post-gallery";
+@import "post-reward" if hexo-config('alipay') or hexo-config('wechatpay');
+@import "post-copyright.styl" if hexo-config('post_copyright.enable')

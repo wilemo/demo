@@ -1,0 +1,628 @@
+# ---------------------------------------------------------------
+# 站点设置
+# ---------------------------------------------------------------
+
+
+#网站图标
+#将你的favicon.ico放到hexo-site/source/文件夹
+favicon: /ico/favicon-green.png
+
+#网站关键字
+#设置默认关键字(用逗号分隔)
+keywords: "Hexo, NexT"
+
+#订阅
+#设置为false，禁用RSS不在页面上显示RSS连接
+#留空，使用Hexo生成的Feed链接，你可能需要先安装hexo-generator-feed插件
+#具体的连接地址，适用于已经烧制过Feed的情形
+rss:
+
+#指定网站的日期
+since: 2017
+
+#图标和作者之间符号
+#authoricon: heart
+authoricon: snowflake-o
+
+#页脚“由…驱动”和“主题信息”版权声明
+copyright: true
+
+#规范，设置一个规范链接标签到你的博客，你可以用它来优化你的博客搜索引擎
+#请看: https://support.google.com/webmasters/answer/139066
+#提示: Before you open this tag, remember set up your URL in hexo _config.yml ( ex. url: http://yourdomain.com )
+canonical: true
+
+#改变标题层次为site-subtitle(将主要网站描述)和所有文章/页面标题来获得更好的搜索引擎优化
+seo: false
+
+
+# ========================================
+# 菜单设置
+# ========================================
+
+#当运行这个网站子目录(例如domain.tld/blog),删除前倒斜杠(/archives -> archives)
+#菜单
+menu:
+  #首页
+  home: /
+  #分类
+  categories: /categories
+  #关于我
+  about: /about
+  #文章
+  archives: /archives
+  #标签
+  tags: /tags
+  #网站地图
+  #sitemap: /sitemap.xml
+  #错误页面
+  #commonweal: /404.html
+  #有料(暂未开放)
+  #something:
+
+#启用/禁用菜单图标
+#图标映射:
+# 菜单项映射到一个特定的FontAwesome图标名称.
+# 键Key是菜单项的名称和值是FontAwesome图标的名称。键Key大小写敏感
+#当显示一个问号图标时意味着项目没有映射.
+menu_icons:
+  #启用
+  enable: true
+  #首页
+  #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
+  home: home
+  #关于我
+  about: user
+  #分类
+  categories: th
+  #日程
+  schedule: calendar
+  #标签
+  tags: tags
+  #分类
+  archives: archive
+  #网站地图
+  sitemap: sitemap
+  #公益
+  commonweal: heartbeat
+
+
+# ---------------------------------------------------------------
+# 方案设置
+# ---------------------------------------------------------------
+
+#方案
+#scheme: Muse
+#scheme: Mist
+scheme: Pisces
+
+
+# ---------------------------------------------------------------
+# 字体设置
+# - 查找字体到 Google Fonts (https://www.google.com/fonts)
+# - 所有字体设置在这里将有以下样式:
+#     light, light italic, normal, normal italic, bold, bold italic
+# - 注意,设置字体太多会导致网站运行缓慢
+# - 介绍来自 5.0.1
+# ---------------------------------------------------------------
+font:
+  #是否启用
+  enable: true
+
+  #外连字体库地址，例如 //fonts.googleapis.com (默认值)
+  host:
+
+  #全局字体，应用在<body>元素
+  global:
+    #启用外部: 真实的从主机加载这个字体
+    external: true
+    #字体
+    family: Monda
+
+  # 标题字体 (h1, h2, h3, h4, h5, h6)
+  # 后备到 `global` 字体设置
+  headings:
+    #启用外部
+    external: true
+    #字体
+    family: Roboto Slab
+
+  # 文章字体
+  # 后备到 `global` 字体设置
+  posts:
+    #启用外部
+    external: true
+    #字体
+    family: Monda
+
+  # Logo字体
+  # 后备到 `global` 字体设置
+  # 这个`size`选项使用`px`作为单位
+  logo:
+    #启用外部
+    external: true
+    #字体
+    family: Rosario
+    #尺寸
+    size: 24
+
+  #代码字体，应用于 code 以及代码块
+  codes:
+    #启用外部
+    external: true
+    #字体
+    family: PT Mono
+    #尺寸
+    size:
+
+
+# ---------------------------------------------------------------
+# 侧边栏设置
+# ---------------------------------------------------------------
+
+
+#社交链接
+#key键是链接标签显示给终端用户
+#Value值是目标链接(如同GitHub: https://github.com/iissnan)
+social:
+  GitHub: https://github.com/wilemo
+  豆瓣: https://www.douban.com/people/wilemo/
+
+#社交链接图标
+#图标映射:
+# 菜单项映射到一个特定的FontAwesome图标名称.
+# 键Key是菜单项的名称和值是FontAwesome图标的名称。键Key大小写敏感
+#当显示一个问号图标时意味着项目没有映射.
+social_icons:
+  #启用图标
+  enable: true
+  #图标映射
+  # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
+  GitHub: github
+  豆瓣: globe
+  Twitter: twitter
+  Weibo: weibo
+
+
+#侧边栏头像
+#放在主题目录(source/images): /images/avatar.jpg
+#放在网站目录(source/uploads): /uploads/avatar.jpg
+avatar: /images/avatar.jpg
+
+
+#侧边栏目录
+toc:
+  #启用目录
+  enable: true
+  #自动添加编号到列表
+  number: true
+
+
+#知识共享许可证
+# Creative Commons 4.0 International License.
+# http://creativecommons.org/
+# by=署名，必须提到原作者
+# nc=非商业用途，不得用于盈利性目的
+# nd=禁止演绎，不得修改原作品，不得再创作
+# sa=相同方式共享，允许修改原作品，但必须使用相同的许可证发布
+# 可用的组合: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
+#creative_commons: by-nc-sa
+
+
+#侧边栏
+sidebar:
+  #侧边栏位置，可用值: left | right
+  position: left
+  #position: right
+
+  #侧边栏显示方式，可用值:
+  #  - post    只有首页显示，默认的
+  #  - always  所有的页面自动都显示
+  #  - hide    在所有页面中都隐藏（可以手动展开）
+  #  - remove  完全移除
+  display: post
+  #display: always
+  #display: hide
+  #display: remove
+
+  #顶部菜单栏在侧边栏的抵消像素
+  offset: 12
+  offset_float: 0
+
+  #侧边栏显示回到顶部按钮(false为显示按钮)
+  b2t: false
+
+  #回到顶部按钮显示滚动条百分比
+  scrollpercent: true
+
+
+#友情链接
+#标题
+links_title: Links
+#links_layout: block
+links_layout: inline
+links:
+  iissnan: http://notes.iissnan.com/
+  JoannaWu: http://blog.wileam.com/
+  cwyaml: http://www.cwyaml.top/
+  wanghao: https://notes.wanghao.work/
+  hackjutsu: http://hackjutsu.com/
+  arao: http://www.arao.me/
+  ixirong: http://www.ixirong.com/
+  gaoli: http://gaoli.me/
+# ---------------------------------------------------------------
+# 文章设置
+# ---------------------------------------------------------------
+
+#自动滚动页面到下面的部分 <!-- more --> 标记.
+scroll_to_more: true
+
+#自动摘要文本描述在主页作为序言
+excerpt_description: true
+
+#自动摘要，不推荐(因为是根据字数摘要，可能造成语句截断不完整)
+#在发布时，请使用<!-- more -->准确控制摘要.
+auto_excerpt:
+  #启用
+  enable: false
+  #摘要字数
+  length: 150
+
+#文章源显示设置
+post_meta:
+  #显示项文本
+  item_text: true
+  #显示创建时间
+  created_at: true
+  #显示更新时间
+  updated_at: false
+  #显示分类
+  categories: true
+
+#文章字数显示设置
+#需要依赖: https://github.com/willin/hexo-wordcount
+post_wordcount:
+  #显示项文本
+  item_text: true
+  #显示字数
+  wordcount: false
+  #最近阅读
+  min2read: false
+
+#微信订阅
+#wechat_subscriber:
+  #是否启用
+  #enabled: true
+  #二维码
+  #qcode: /path/to/your/wechatqcode 例子 /uploads/wechat-qcode.jpg
+  #描述
+  #description: 例子：订阅我的博客通过扫描我的公众微信帐号
+
+#文章末尾显示打赏按钮
+reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+wechatpay: /images/wechatpay.jpg
+alipay: /images/alipay.jpg
+
+#声明文章许可证
+post_copyright:
+  #是否启用
+  enable: true
+  #许可证
+  license: CC BY-NC-SA 3.0
+  #许可证地址
+  license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
+
+
+# ---------------------------------------------------------------
+# Misc主题设置
+# ---------------------------------------------------------------
+
+#自定义Logo
+# !!目前仅用于默认方案
+# 选项:
+#   enabled: [true/false] - 替换为具体的图片
+#   image: url-of-image   - 图片地址
+custom_logo:
+  #是否启用
+  enabled: false
+  #图片地址
+  image:
+
+
+#代码高亮主题
+#可选值有:
+#    normal | night | night eighties | night blue | night bright
+# https://github.com/chriskempson/tomorrow-theme
+highlight_theme: normal
+
+
+# ---------------------------------------------------------------
+# 第三方服务设置
+# ---------------------------------------------------------------
+
+# MathJax公式支持
+mathjax:
+  #是否启用
+  enable: false
+  #每页
+  per_page: false
+  #内容分发网络地址
+  cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+
+#Swiftype搜索API密匙
+#swiftype_key:
+
+#百度分析ID
+baidu_analytics: 1efe6a7a6efd5cf17b8d856c4d95231c
+
+#多说短名称
+#duoshuo_shortname:
+
+# Disqus评论
+disqus:
+  #是否启用
+  enable: false
+  #短名称
+  shortname:
+  #数量
+  count: true
+
+# Hypercomments
+#hypercomments_id:
+
+# Gentie productKey
+#网易云跟帖产品Key
+gentie_productKey: 25aaaa2d43da41379094048d1b94725f
+
+#畅言评论
+changyan:
+  #是否启用
+  enable: false
+  #应用ID
+  appid:
+  #应用Key
+  appkey:
+
+#友言评论系统支持
+#从这获取你的uid： http://www.uyan.cc
+#youyan_uid: your uid
+
+#LiveRe评论系统支持
+#从这获取你的uid： https://livere.com/insight/myCode (General web site)
+#livere_uid: your uid
+
+#百度分享
+#可选值有: button | slide
+#警告: 百度分享不支持https
+#baidushare:
+##  type: button
+
+#JiaThis分享
+jiathis: true
+#警告: JiaThis不支持https
+#add_this_id:
+
+#多说分享
+#duoshuo_share: true
+
+#谷歌网站管理员工具验证设置
+#请看: https://www.google.com/webmasters/
+#google_site_verification:
+
+#谷歌分析
+#google_analytics:
+
+#Yandex网站管理员工具验证设置
+#See: https://webmaster.yandex.ru/
+#yandex_site_verification:
+
+#CNZZ统计
+#cnzz_siteid:
+
+# Application Insights
+#请看：https://azure.microsoft.com/en-us/services/application-insights/
+# application_insights:
+
+# 让 duoshuo 显示 UA
+# 当admin_enable为true的时候，user_id必须不能为空!
+# 你可以访问 http://dev.duoshuo.com 获得duoshuo 用户ID.
+duoshuo_info:
+  ua_enable: true
+  #管理员启用
+  admin_enable: false
+  #用户ID
+  user_id: 0
+  #管理员昵称
+  #admin_nickname: Author
+
+
+# Facebook SDK 支持.
+# https://github.com/iissnan/hexo-theme-next/pull/410
+facebook_sdk:
+  enable: false
+  app_id:       #<app_id>
+  fb_admin:     #<user_id>
+  like_button:  #true
+  webmaster:    #true
+
+# Facebook 评论插件
+# 这个插件依赖于 Facebook SDK.
+# 如果facebook_sdk.enable是false, Facebook评论插件将会不可用
+facebook_comments_plugin:
+  enable: false
+  num_of_posts: 10  # min posts num is 1
+  width: 100%       # default width is 550px
+  scheme: light     # default scheme is light (light or dark)
+
+# VKontakte API支持.
+# 到这里获得你的AppID 访问 https://vk.com/editapp?act=create
+vkontakte_api:
+  enable: false
+  app_id:       #<app_id>
+  like:         true
+  comments:     true
+  num_of_posts: 10
+
+
+#每篇文章显示的访问者数量
+#注意: 记录文章访问量的唯一标识符是文章的发布日期以及文章的标题
+#因此请确保这两个数值组合的唯一性，如果你更改了这两个数值，会造成文章阅读数值的清零重计。
+#你可以访问 https://leancloud.cn 获得 AppID 和 AppKey.
+leancloud_visitors:
+  enable: true
+  app_id: gdG2We7AMaK9xUP5GavflfMo-gzGzoHsz
+  app_key: xussxE3zAVznR62A7AGkIROm
+
+#显示 PV/UV(访问量,访客量)，这个网站busuanzi(卜算子).
+#获取更多信息到 http://ibruce.info/2015/04/04/busuanzi/
+busuanzi_count:
+  #如果其他配置false，数量值都是虚假的
+  enable: true
+  #自定义uv span到整个网站
+  site_uv: true
+  site_uv_header: <i class="fa fa-user"></i>
+  site_uv_footer:
+  #自定义pv span到整个网站
+  site_pv: true
+  site_pv_header: <i class="fa fa-eye"></i>
+  site_pv_footer:
+  #自定义pv span到只有一个页面
+  page_pv: true
+  page_pv_header: <i class="fa fa-file-o"></i>
+  page_pv_footer:
+
+
+#腾讯分析ID
+# tencent_analytics:
+
+#腾讯MTA ID
+# tencent_mta:
+
+
+#启用百度推送,这样博客将url为SEO百度自动这是非常有用的
+baidu_push: false
+
+#谷歌日历
+#分享你最近安排他人通过日历页面
+# API 文档:
+# https://developers.google.com/google-apps/calendar/v3/reference/events/list
+calendar:
+  enable: false
+  calendar_id: <required>
+  api_key: <required>
+  orderBy: startTime
+  offsetMax: 24
+  offsetMin: 4
+  timeZone:
+  showDeleted: false
+  singleEvents: true
+  maxResults: 250
+
+#Algolia搜索
+algolia_search:
+  enable: true
+  #匹配
+  hits:
+    #每页显示数
+    per_page: 10
+  labels:
+    #输入占位符
+    input_placeholder: 搜索文章
+    #没找到的时候显示
+    hits_empty: "我们没有找到任何搜索结果: ${query}"
+    hits_stats: "${hits} 结果发现在 ${time} ms"
+
+
+#本地搜索
+local_search:
+  enable: false
+
+# 外部地址URL 用 BASE64 encrypt & decrypt
+# Usage: {% exturl text url "title" %}
+# Alias: {% extlink text url "title" %}
+exturl: false
+
+
+#! ---------------------------------------------------------------
+#! 不要编辑下面的设置
+#! 除非你知道你在做什么
+#! ---------------------------------------------------------------
+
+#加载动画
+#开启后JS加载完成后显示页面，关闭后页面立即显示
+use_motion: true
+
+# Fancybox
+fancybox: true
+
+#背景动画(三角线)
+canvas_nest: false
+
+#背景动画(波浪)
+three_waves: false
+
+# Script 提供者
+# 你想自定义的话，设置一个CDN地址来自提供者.
+# 例子：
+#    jquery: https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js
+# 注意,您应该使用相同版本的内部,以避免潜在的问题
+# 请使用https协议的CDN文件当你启用https站点上。
+vendors:
+  #内部路径前缀。请不要编辑它
+  _internal: lib
+
+  #内部版本: 2.1.3
+  jquery:
+
+  #内部版本: 2.1.5
+  #请看: http://fancyapps.com/fancybox/
+  fancybox:
+  fancybox_css:
+
+  #内部版本: 1.0.6
+  #请看: https://github.com/ftlabs/fastclick
+  fastclick:
+
+  #内部版本: 1.9.7
+  #请看: https://github.com/tuupola/jquery_lazyload
+  lazyload:
+
+  #内部版本: 1.2.1
+  #请看: http://VelocityJS.org
+  velocity:
+
+  #内部版本: 1.2.1
+  #请看: http://VelocityJS.org
+  velocity_ui:
+
+  #内部版本: 0.7.9
+  #请看: https://faisalman.github.io/ua-parser-js/
+  ua_parser:
+
+  #内部版本: 4.6.2
+  #请看: http://fontawesome.io/
+  fontawesome:
+
+  #内部版本: 1
+  #请看 https://www.algolia.com
+  algolia_instant_js:
+  algolia_instant_css:
+
+  #内部版本: 1.0.0
+  #请看：https://github.com/hustcc/canvas-nest.js
+  canvas_nest:
+
+  #three
+  three:
+  three_waves:
+
+
+
+#Assets资源位置
+css: css
+js: js
+images: images
+
+#主题版本
+version: 5.1.0
