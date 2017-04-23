@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Wile Mo&#39;s Demo</title>
+  <subtitle>You&#39;re unique, nothing can replace you.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://demo.wilemo.com/"/>
+  <updated>2017-04-22T14:58:53.385Z</updated>
+  <id>http://demo.wilemo.com/</id>
+  
+  <author>
+    <name>Wile Mo</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://demo.wilemo.com/2017/04/09/picture/"/>
+    <id>http://demo.wilemo.com/2017/04/09/picture/</id>
+    <published>2017-04-09T14:59:20.000Z</published>
+    <updated>2017-04-22T14:58:53.385Z</updated>
+    
+    <content type="html"><![CDATA[<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="/picture/1.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="/picture/2.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="/picture/3.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column" style="width: 50%;"><img src="/picture/4.jpg" alt=""></div><div class="group-picture-column" style="width: 50%;"><img src="/picture/5.jpg" alt=""></div></div><div class="group-picture-row"></div></div></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;group-picture&quot;&gt;&lt;div class=&quot;group-picture-container&quot;&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot; style=&quot;widt
+    
+    </summary>
+    
+    
+      <category term="狗狗" scheme="http://demo.wilemo.com/tags/%E7%8B%97%E7%8B%97/"/>
+    
+      <category term="生活杂事" scheme="http://demo.wilemo.com/tags/%E7%94%9F%E6%B4%BB%E6%9D%82%E4%BA%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo &amp; Next Nodes</title>
+    <link href="http://demo.wilemo.com/2017/04/07/hexo-and-next-notes/"/>
+    <id>http://demo.wilemo.com/2017/04/07/hexo-and-next-notes/</id>
+    <published>2017-04-07T10:10:00.000Z</published>
+    <updated>2017-04-22T14:58:53.385Z</updated>
+    
+    <content type="html"><![CDATA[<span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="/picture/6.jpg" class="full-image"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span>
+<h1 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h1><p><img src="/picture/1.jpg" alt="狗狗"></p>
+<div class="note warning"><p>目录结构 </p>
+</div>
+<p><span class="label label-warning">0.4.5</span></p>
+<p><span class="label r label-success">0.4.5</span></p>
+<p><a href="#" class="label label-success">0.4.5</a></p>
+<embed src="http://player.youku.com/player.php/sid/XMjY5NTgzMTE0NA==/v.swf" allowfullscreen="true" quality="high" width="100%" height="400" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash">
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">.</div><div class="line">├── node_modules #模块包文件夹，删除后使用npm install命令读取package.json重新安装</div><div class="line">├── public       #静态页面文件夹，hexo generate命令生成的文件都在这里</div><div class="line">├── scaffolds    #模版文件夹，对应命令中布局[layout]，不指定默认为default_layout</div><div class="line">|   ├── draft.md #草稿模版</div><div class="line">|   ├── page.md  #页面模版</div><div class="line">|   └── post.md  #文章模版，_config.yml中的default_layout是post</div><div class="line">├── source       #资源文件夹，解析后输出到public，CNAME和README.md可放在这里</div><div class="line">|   ├── _drafts  #草稿</div><div class="line">|   └── _posts   #文章</div><div class="line">├── themes       #主题文件夹</div><div class="line">├── └── next     #next主题</div><div class="line">├── .gitignore   #Hexo Git忽略配置文件(可删除)</div><div class="line">├── _config.yml  #站点配置文件</div><div class="line">├── db.json      #静态常量数据库，hexo server生成并使用。</div><div class="line">├── debug.log    #调试模式启动后生成的日志文件。</div><div class="line">└── package.json #模块包配置文件</div></pre></td></tr></table></figure>
+<h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><p><code>[]</code> 可选参数<br><code>&lt;&gt;</code> 必须参数<br><code>command</code> 代表任意有效命令<br><code>[-c, --command]</code> 参数的简写和全写形式</p>
+<a id="more"></a>
+<span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="/picture/1.jpg" class="full-image" alt="图片Alt" title="图片标题"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span>
+<h3 id="基本命令"><a href="#基本命令" class="headerlink" title="基本命令"></a>基本命令</h3><p>NPM命令这个文章写的很全<a href="http://www.cnblogs.com/PeunZhang/p/5553574.html" target="_blank" rel="external">npm 常用命令详解</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">#安装模块</div><div class="line">npm install -g hexo-cli</div><div class="line">npm install                     #安装依赖</div><div class="line">npm i                           #安装简写</div><div class="line"></div><div class="line">#升级模块</div><div class="line">npm update -g hexo-cli</div><div class="line"></div><div class="line">#卸载模块</div><div class="line">npm uninstall -g hexo-cli</div><div class="line">npm &lt;remove, rm, r, un, unlink&gt; #卸载简写和别名</div><div class="line"></div><div class="line">#显示模块详情</div><div class="line">npm show hexo-cli</div><div class="line"></div><div class="line">hexo [v, -v, --version]         #查看Hexo版本</div><div class="line">hexo [command] [-h, --help]     #查看帮助</div></pre></td></tr></table></figure>
+<h3 id="全局命令"><a href="#全局命令" class="headerlink" title="全局命令"></a>全局命令</h3><p><code>&lt;command&gt;</code>可以是任何有效命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">hexo &lt;command&gt; [--config] &lt;custom.yml&gt; #指定配置文件，而不是使用默认_config.yml</div><div class="line">hexo &lt;command&gt; [--cwd] &lt;/path/to/cwd&gt;  #自定义当前工作目录路径</div><div class="line">hexo &lt;command&gt; [--draft]               #显示草稿，草稿位于source/_drafts文件夹</div><div class="line">hexo &lt;command&gt; [--debug]               #调试模式，显示所有详细信息到终端。</div><div class="line">hexo &lt;command&gt; [--safe]                #安全模式，禁用所有插件和脚本。</div><div class="line">hexo &lt;command&gt; [--silent]              #精简模式，隐藏终端输出信息。</div></pre></td></tr></table></figure>
+<h3 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h3><p>新建一个网站。如果没有设置<code>folder</code>，默认在当前文件夹建立网站。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">hexo init                #在当前目录初始化</div><div class="line">hexo i                   #简写形式</div><div class="line">hexo init [folder]       #在指定目录初始化</div><div class="line">hexo init [--no-clone]   #复制文件,而不是从GitHub克隆</div><div class="line">hexo init [--no-install] #跳过npm安装</div></pre></td></tr></table></figure>
+<h3 id="清理"><a href="#清理" class="headerlink" title="清理"></a>清理</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo clean #清除db.json数据内容和public文件夹</div></pre></td></tr></table></figure>
+<h3 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo publish [layout] &lt;filename&gt; #草稿名称,如&quot;hello-world&quot;</div><div class="line">hexo p [layout] &lt;filename&gt; #简写</div></pre></td></tr></table></figure>
+<h3 id="生成"><a href="#生成" class="headerlink" title="生成"></a>生成</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">hexo generate #生成静态文件</div><div class="line">hexo g #简写</div><div class="line">hexo generate [-d, --deploy] #文件生成后立即部署</div><div class="line">hexo generate [-w, --watch] #监视文件变动</div></pre></td></tr></table></figure>
+<h3 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo deploy #部署到代码托管平台</div><div class="line">hexo d #简写</div></pre></td></tr></table></figure>
+<h3 id="渲染文件"><a href="#渲染文件" class="headerlink" title="渲染文件"></a>渲染文件</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo render &lt;file1&gt; [file2] ... #至少有一个或多个文件</div><div class="line">hexo render &lt;file1&gt; [file2] [-o, --output] #设置输出路径</div></pre></td></tr></table></figure>
+<h3 id="显示资料"><a href="#显示资料" class="headerlink" title="显示资料"></a>显示资料</h3><p>资料类型type可以是页面<code>page</code>、文章<code>post</code>、博客全部结构<code>route</code>、标签<code>tag</code>或分类<code>category</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo list &lt;type&gt; #列出网站资料</div><div class="line">hexo l #简写</div></pre></td></tr></table></figure>
+<h3 id="迁移"><a href="#迁移" class="headerlink" title="迁移"></a>迁移</h3><p>从其他博客系统<a href="https://hexo.io/zh-cn/docs/migration.html" target="_blank" rel="external">迁移内容</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo migrate &lt;type&gt;</div><div class="line">hexo m #简写</div></pre></td></tr></table></figure>
+<h3 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">hexo server #启动服务器预览</div><div class="line">hexo s #简写</div><div class="line">hexo server [-i, --ip] &lt;ip&gt; #重写服务器默认IP</div><div class="line">hexo server [-l, --log] [format] #启用日志</div><div class="line">hexo server [-o, --open] #启动后使用默认浏览器打开站点</div><div class="line">hexo server [-p, --port] &lt;port&gt; #修改端口号</div><div class="line">hexo server [-s, --static] #启用服务静态预览</div></pre></td></tr></table></figure>
+<h3 id="新建内容"><a href="#新建内容" class="headerlink" title="新建内容"></a>新建内容</h3><p><code>[layout]</code>可以是文章<code>post</code>、页面<code>page</code>或草稿<code>draft</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">hexo new [layout] &lt;title&gt; #如果标题包含空格，请使用双引号括起来&quot;My Title&quot;</div><div class="line">hexo n [layout] &lt;title&gt; #简写</div><div class="line">hexo new [layout] &lt;title&gt; [-p, --path] #自定义的post路径</div><div class="line">hexo new [layout] &lt;title&gt; [-r, --replace] #如果存在则替换当前post</div><div class="line">hexo new [layout] &lt;title&gt; [-s, --slug] #自定义的postURL</div></pre></td></tr></table></figure>
+<h3 id="文章摘要"><a href="#文章摘要" class="headerlink" title="文章摘要"></a>文章摘要</h3><p><code>&lt;!--more--&gt;</code></p>
+<h3 id="文章中插入图片"><a href="#文章中插入图片" class="headerlink" title="文章中插入图片"></a>文章中插入图片</h3><p>使用markdown写文章，插入图片的格式为<code>![](链接地址)</code>，这里要说的是链接地址怎么写。对于hexo，使用本地路径：在/source目录下新建一个img文件夹，将图片放入该文件夹下，插入图片时链接即为/img/图片名称。</p>
+<h3 id="配置网站"><a href="#配置网站" class="headerlink" title="配置网站"></a>配置网站</h3><h1 id="Next-主题"><a href="#Next-主题" class="headerlink" title="Next 主题"></a>Next 主题</h1><h2 id="安装-Next"><a href="#安装-Next" class="headerlink" title="安装 Next"></a>安装 Next</h2><h2 id="优化主题"><a href="#优化主题" class="headerlink" title="优化主题"></a>优化主题</h2><h3 id="优化代码块风格-单行"><a href="#优化代码块风格-单行" class="headerlink" title="优化代码块风格(单行)"></a>优化代码块风格(<code>单行</code>)</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">code</span> &#123;</div><div class="line">  <span class="attribute">padding</span>: <span class="number">2px</span> <span class="number">4px</span>;</div><div class="line">  <span class="attribute">word-wrap</span>: break-word;</div><div class="line">  <span class="attribute">color</span>: <span class="number">#c7254e</span>;</div><div class="line">  <span class="attribute">background</span>: <span class="number">#F9F2F4</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="优化超链接风格"><a href="#优化超链接风格" class="headerlink" title="优化超链接风格"></a>优化超链接风格</h3><p>在<code>hexo\themes\next\source\css\_common\components\post\post.styl</code>新增CSS样式</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.post-body</span> <span class="selector-tag">a</span> &#123;</div><div class="line">  <span class="attribute">color</span>: <span class="number">#009a61</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;span itemprop=&quot;image&quot; itemscope itemtype=&quot;http://schema.org/ImageObject&quot;&gt;&lt;img itemprop=&quot;url image&quot; src=&quot;/picture/6.jpg&quot; class=&quot;full-image&quot; /&gt;&lt;meta itemprop=&quot;width&quot; content=&quot;auto&quot;&gt;&lt;meta itemprop=&quot;height&quot; content=&quot;auto&quot;&gt;&lt;/span&gt;
+&lt;h1 id=&quot;Hexo&quot;&gt;&lt;a href=&quot;#Hexo&quot; class=&quot;headerlink&quot; title=&quot;Hexo&quot;&gt;&lt;/a&gt;Hexo&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;/picture/1.jpg&quot; alt=&quot;狗狗&quot;&gt;&lt;/p&gt;
+&lt;div class=&quot;note warning&quot;&gt;&lt;p&gt;目录结构 &lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&quot;label label-warning&quot;&gt;0.4.5&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;label r label-success&quot;&gt;0.4.5&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;label label-success&quot;&gt;0.4.5&lt;/a&gt;&lt;/p&gt;
+&lt;embed src=&#39;http://player.youku.com/player.php/sid/XMjY5NTgzMTE0NA==/v.swf&#39; allowFullScreen=&#39;true&#39; quality=&#39;high&#39; width=&#39;100%&#39; height=&#39;400&#39; align=&#39;middle&#39; allowScriptAccess=&#39;always&#39; type=&#39;application/x-shockwave-flash&#39;&gt;&lt;/embed&gt;
+
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;10&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;11&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;12&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;13&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;14&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;15&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;16&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;17&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;.&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;├── node_modules #模块包文件夹，删除后使用npm install命令读取package.json重新安装&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;├── public       #静态页面文件夹，hexo generate命令生成的文件都在这里&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;├── scaffolds    #模版文件夹，对应命令中布局[layout]，不指定默认为default_layout&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;|   ├── draft.md #草稿模版&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;|   ├── page.md  #页面模版&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;|   └── post.md  #文章模版，_config.yml中的default_layout是post&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;├── source       #资源文件夹，解析后输出到public，CNAME和README.md可放在这里&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;|   ├── _drafts  #草稿&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;|   └── _posts   #文章&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;├── themes       #主题文件夹&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;├── └── next     #next主题&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;├── .gitignore   #Hexo Git忽略配置文件(可删除)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;├── _config.yml  #站点配置文件&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;├── db.json      #静态常量数据库，hexo server生成并使用。&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;├── debug.log    #调试模式启动后生成的日志文件。&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;└── package.json #模块包配置文件&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;常用命令&quot;&gt;&lt;a href=&quot;#常用命令&quot; class=&quot;headerlink&quot; title=&quot;常用命令&quot;&gt;&lt;/a&gt;常用命令&lt;/h2&gt;&lt;p&gt;&lt;code&gt;[]&lt;/code&gt; 可选参数&lt;br&gt;&lt;code&gt;&amp;lt;&amp;gt;&lt;/code&gt; 必须参数&lt;br&gt;&lt;code&gt;command&lt;/code&gt; 代表任意有效命令&lt;br&gt;&lt;code&gt;[-c, --command]&lt;/code&gt; 参数的简写和全写形式&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://demo.wilemo.com/categories/hexo/"/>
+    
+    
+      <category term="Hexo" scheme="http://demo.wilemo.com/tags/Hexo/"/>
+    
+      <category term="Next" scheme="http://demo.wilemo.com/tags/Next/"/>
+    
+      <category term="Blog" scheme="http://demo.wilemo.com/tags/Blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://demo.wilemo.com/2017/04/01/hello-world/"/>
+    <id>http://demo.wilemo.com/2017/04/01/hello-world/</id>
+    <published>2017-04-01T10:10:00.000Z</published>
+    <updated>2017-04-22T14:58:53.385Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
